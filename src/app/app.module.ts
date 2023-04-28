@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { SayHelloComponent } from './say-hello/say-hello.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SayHelloComponent
   ],
   imports: [
     BrowserModule
